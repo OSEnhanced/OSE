@@ -60,6 +60,7 @@ public class Loader extends JPanel implements AppletStub {
 			c.setStub(this);
 			c.init();
 			c.start();
+			
 			JFrame clientFrame = new JFrame("OS-Enhanced - Version: " + REV + "  (World: " + PlayerPreferences.PLAYER_WORLD+")");
 			clientFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			clientFrame.add(c);
