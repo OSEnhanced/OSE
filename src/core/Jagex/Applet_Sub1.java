@@ -416,7 +416,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 	static char method3648(char var0, int var1) {
 		return var0 != 181 && var0 != 402 ? Character.toTitleCase(var0) : var0;
 	}
-	static String getMessage() {
+	static String getUsername() {
 		return Constants.playerName;
 	}
 	static void method3649(Class117_Sub19[] var0, int var1, int var2, int var3, int var4, int var5, int var6, int var7, int var8, int var9) {
@@ -532,9 +532,10 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 						if (var12.anInt2018 * 2064823433 != 0) {
 							if (var12.anInt2018 * 2064823433 == 1336) {
 								if (GameClient.aBool3182) {
-									var23 += 15;
-									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Fps:" + GameClient.anInt2911 * -2033650219, var12.anInt1988 * 1854643179 + var22, var23, 16776960, -1);
-									var23 += 15;
+									int y = var23;
+									y += 15;
+									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Fps:" + GameClient.anInt2911 * -2033650219, var12.anInt1988 * 1854643179 + var22, y, 16776960, -1);
+									y += 15;
 									Runtime var51 = Runtime.getRuntime();
 									var19 = (int) ((var51.totalMemory() - var51.freeMemory()) / 1024L);
 									var10 = 16776960;
@@ -545,11 +546,15 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 									if (var19 > 65536 && !GameClient.aBool2921) {
 										var10 = 16711680;
 									}
-
-									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Mem:" + var19 + "k", var22 + var12.anInt1988 * 1854643179, var23, var10, -1);
-									var23 += 15;
-									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Username: "+getMessage(), var12.anInt1988 * 1854643179 + var22, var23, 16776960, -1);
-									var23 += 15;
+									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Mem:" + var19 + "k", var22 + var12.anInt1988 * 1854643179, y, var10, -1);
+									y += 15;
+									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Username: "+getUsername(), 150, 50, 16776960, -1);
+									y += 15;
+									Class32 c32 = new Class32();
+									/**
+									 * usage: Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459(String, X, Y, 16776960 (not sure), 0/-1 (shade));
+									 */
+									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Player: "+c32.otherPlayerInfo(), 200, 85, 16776960, 0);
 								}
 								continue;
 							}

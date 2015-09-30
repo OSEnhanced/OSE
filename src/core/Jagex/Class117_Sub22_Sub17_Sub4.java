@@ -321,10 +321,10 @@ public abstract class Class117_Sub22_Sub17_Sub4 extends Class117_Sub22_Sub17 {
 		anInt2849 = var9 - anInt2854;
 	}
 
-	public void method3459(String var1, int var2, int var3, int var4, int var5) {
-		if (var1 != null) {
-			method3462(var4, var5);
-			method3468(var1, var2 - method3454(var1), var3);
+	public void method3459(String message, int x, int y, int size, int var5) {
+		if (message != null) {
+			method3462(size, var5);
+			method3468(message, x - method3454(message), y);
 		}
 	}
 
