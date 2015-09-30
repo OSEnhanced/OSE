@@ -52,13 +52,6 @@ public class Loader extends JPanel implements AppletStub {
 			}
 		});
 	}
-	
-	@Override
-	public void paint(Graphics g) {
-		super.paintComponent(g);
-		g.drawString("Niggers", 50, 50);
-		repaint();
-	}
 
 	private void startClient() {
 		try {
