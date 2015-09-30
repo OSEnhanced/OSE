@@ -14,7 +14,6 @@ import core.Jagex.Class31;
 public abstract interface Constants {
 	public static final String P_USER_HOME = "user.home";
 	public static final String FILE_CLIENT_JAR = "client.jar";
-	public static final String FOLDER_DREAM_BOT = "DreamBot";
 	public static final String FOLDER_SCRIPTS = "Scripts";
 	public static final int CLIENT_WIDTH = 765;
 	public static final int CLIENT_HEIGHT = 503;
