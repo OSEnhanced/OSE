@@ -655,7 +655,7 @@ public class Class14 {
 			GameClient.aClass117_Sub14_Sub1_2961.method2035(Class89.aBoolArray1050[82] ? 1 : 0, -1903946069);
 		}
 
-		Player var9;
+		Class117_Sub22_Sub18_Sub1_Sub2 var9;
 		if (var2 == 14) {
 			var9 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var3];
 			if (var9 != null) {

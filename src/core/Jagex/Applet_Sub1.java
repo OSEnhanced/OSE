@@ -4,6 +4,8 @@ import java.awt.*;
 import java.awt.event.*;
 import java.net.URL;
 
+import core.Constants;
+
 public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListener, WindowListener {
 
 	public static final int anInt2895 = 208;
@@ -18,7 +20,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 	static int anInt2909 = 0;
 	static int anInt2900 = 714018388;
 	static int anInt2901 = 1625505901;
-	public static int anInt2911 = 0;
+	protected static int anInt2911 = 0;
 	protected static long[] aLongArray2903 = new long[32];
 	protected static long[] aLongArray2904 = new long[32];
 	protected static int anInt2905 = 0;
@@ -414,7 +416,9 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 	static char method3648(char var0, int var1) {
 		return var0 != 181 && var0 != 402 ? Character.toTitleCase(var0) : var0;
 	}
-
+	static String getMessage() {
+		return Constants.message;
+	}
 	static void method3649(Class117_Sub19[] var0, int var1, int var2, int var3, int var4, int var5, int var6, int var7, int var8, int var9) {
 		Class117_Sub22_Sub17.method2871(var2, var3, var4, var5);
 		Class117_Sub22_Sub17_Sub1.method3095();
@@ -529,7 +533,8 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 							if (var12.anInt2018 * 2064823433 == 1336) {
 								if (GameClient.aBool3182) {
 									var23 += 15;
-									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Fps:" + GameClient.anInt2911 * -2033650219, var12.anInt1988 * 1854643179 + var22, var23, 16776960, -1);
+									//Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Fps:" + GameClient.anInt2911 * -2033650219, var12.anInt1988 * 1854643179 + var22, var23, 16776960, -1);
+									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459(getMessage(), var12.anInt1988 * 1854643179 + var22, var23, 16776960, -1);
 									var23 += 15;
 									Runtime var51 = Runtime.getRuntime();
 									var19 = (int) ((var51.totalMemory() - var51.freeMemory()) / 1024L);
@@ -893,16 +898,16 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 												if (var12.anInt2015 * 562552053 == 0) {
 													var42 = GameClient.aClass91_3193.method1221((Class117_Sub22_Sub14) null, -1, (Class117_Sub22_Sub14) null, -1, 839212158);
 												} else {
-													var42 = Class31.player.method2921((byte) 53);
+													var42 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.method2921((byte) 53);
 												}
 											} else if (var19 == -1) {
-												var42 = var12.method2279((Class117_Sub22_Sub14) null, -1, var44, Class31.player.aClass91_2871, -2069840042);
+												var42 = var12.method2279((Class117_Sub22_Sub14) null, -1, var44, Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.aClass91_2871, -2069840042);
 												if (var42 == null && Class117_Sub19.aBool2086) {
 													Class54.method850(var12, (byte) 0);
 												}
 											} else {
 												Class117_Sub22_Sub14 var48 = Class114_Sub1.method1838(var19, (byte) -113);
-												var42 = var12.method2279(var48, var12.anInt2082 * -816117465, var44, Class31.player.aClass91_2871, -1131480014);
+												var42 = var12.method2279(var48, var12.anInt2082 * -816117465, var44, Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.aClass91_2871, -1131480014);
 												if (var42 == null && Class117_Sub19.aBool2086) {
 													Class54.method850(var12, (byte) 0);
 												}

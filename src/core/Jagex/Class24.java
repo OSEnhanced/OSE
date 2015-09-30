@@ -46,7 +46,7 @@ public class Class24 {
 	}
 
 	static void method398(Class5 var0, int var1) {
-		if (GameClient.anInt3153 * -140834255 == Class31.player.anInt2577 * 1961555871 >> 7 && Class31.player.anInt2567 * -184603173 >> 7 == GameClient.anInt3154 * 45835813) {
+		if (GameClient.anInt3153 * -140834255 == Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 >> 7 && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 >> 7 == GameClient.anInt3154 * 45835813) {
 			GameClient.anInt3153 = 0;
 		}
 
@@ -58,11 +58,11 @@ public class Class24 {
 		}
 
 		for (int var3 = 0; var3 < var8; var3++) {
-			Player var4;
+			Class117_Sub22_Sub18_Sub1_Sub2 var4;
 			int var5;
 			if (Class5.aClass5_53 == var0) {
-				var4 = Class31.player;
-				var5 = Class31.player.anInt2894 * 577467381 << 14;
+				var4 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393;
+				var5 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2894 * 577467381 << 14;
 			} else if (Class5.aClass5_54 == var0) {
 				var4 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[GameClient.anInt3084 * 833823819];
 				var5 = GameClient.anInt3084 * 833823819 << 14;

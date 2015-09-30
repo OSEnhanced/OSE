@@ -18,7 +18,7 @@ public class Class117_Sub22_Sub21 extends Class117_Sub22 {
 
 					Class117_Sub10 var5 = (Class117_Sub10) GameClient.aClass127_3080.method1675((long) (var4.anInt1973 * -1955776525));
 					if (var5 != null) {
-						Player.method3543(var5.anInt1831 * -2090327687, var1, -1854452833);
+						Class117_Sub22_Sub18_Sub1_Sub2.method3543(var5.anInt1831 * -2090327687, var1, -1854452833);
 					}
 				}
 

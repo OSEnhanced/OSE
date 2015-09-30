@@ -49,7 +49,7 @@ public class Class74 {
 			if (GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var1] != null) {
 				throw new RuntimeException();
 			} else {
-				Player var12 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var1] = new Player();
+				Class117_Sub22_Sub18_Sub1_Sub2 var12 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var1] = new Class117_Sub22_Sub18_Sub1_Sub2();
 				var12.anInt2894 = var1 * -743481251;
 				if (Class4.aClass117_Sub14Array39[var1] != null) {
 					var12.method3541(Class4.aClass117_Sub14Array39[var1], 414144600);

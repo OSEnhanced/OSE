@@ -142,7 +142,7 @@ public class Class41 {
 
 		Class80.method1082(-574043343);
 		if (GameClient.anInt3036 * -1635287017 != -1) {
-			Player.method3543(GameClient.anInt3036 * -1635287017, 1, -1402262303);
+			Class117_Sub22_Sub18_Sub1_Sub2.method3543(GameClient.anInt3036 * -1635287017, 1, -1402262303);
 		}
 
 	}

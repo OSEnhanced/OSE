@@ -57,7 +57,7 @@ public class Class38 {
 				if (var3 == 32) {
 					var6.append('+');
 				} else {
-					byte var4 = Player.method3548(var3, -635618848);
+					byte var4 = Class117_Sub22_Sub18_Sub1_Sub2.method3548(var3, -635618848);
 					var6.append('%');
 					int var7 = var4 >> 4 & 15;
 					if (var7 >= 10) {

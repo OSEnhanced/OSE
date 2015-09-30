@@ -1314,7 +1314,7 @@ public abstract class Class57 {
 
 										if (var39 == 3101) {
 											var6 -= 2;
-											Class61.method921(Class31.player, Class2.anIntArray13[var6], Class2.anIntArray13[1 + var6], 1757225379);
+											Class61.method921(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393, Class2.anIntArray13[var6], Class2.anIntArray13[1 + var6], 1757225379);
 											continue;
 										}
 
@@ -1365,8 +1365,8 @@ public abstract class Class57 {
 											boolean var51 = false;
 
 											for (var21 = 0; var21 < var18; var21++) {
-												Player var22 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var50[var21]];
-												if (var22 != null && Class31.player != var22 && var22.playerName != null && var22.playerName.equalsIgnoreCase(var44)) {
+												Class117_Sub22_Sub18_Sub1_Sub2 var22 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var50[var21]];
+												if (var22 != null && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 != var22 && var22.getPlayerName() != null && var22.getPlayerName().equalsIgnoreCase(var44)) {
 													if (var53 == 1) {
 														GameClient.aClass117_Sub14_Sub1_2961.method2932(208, 388406689);
 														GameClient.aClass117_Sub14_Sub1_2961.method2024(0, -1325718011);
@@ -1597,8 +1597,8 @@ public abstract class Class57 {
 
 											if (var39 == 3308) {
 												var53 = Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421;
-												var16 = Class117_Sub22_Sub20.anInt2497 * 544615727 + (Class31.player.anInt2577 * 1961555871 >> 7);
-												var18 = (Class31.player.anInt2567 * -184603173 >> 7) + Class117_Sub22_Sub19.anInt2468 * -771797447;
+												var16 = Class117_Sub22_Sub20.anInt2497 * 544615727 + (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 >> 7);
+												var18 = (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 >> 7) + Class117_Sub22_Sub19.anInt2468 * -771797447;
 												Class2.anIntArray13[var6++] = (var16 << 14) + (var53 << 28) + var18;
 												continue;
 											}
@@ -2094,7 +2094,7 @@ public abstract class Class57 {
 												if (var39 == 3624) {
 													--var6;
 													var53 = Class2.anIntArray13[var6];
-													if (Class117_Sub22_Sub18_Sub5.aClass117_Sub13Array2747 != null && var53 < Class29.anInt362 * -562694677 && Class117_Sub22_Sub18_Sub5.aClass117_Sub13Array2747[var53].aString1870.equalsIgnoreCase(Class31.player.playerName)) {
+													if (Class117_Sub22_Sub18_Sub5.aClass117_Sub13Array2747 != null && var53 < Class29.anInt362 * -562694677 && Class117_Sub22_Sub18_Sub5.aClass117_Sub13Array2747[var53].aString1870.equalsIgnoreCase(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName())) {
 														Class2.anIntArray13[var6++] = 1;
 														continue;
 													}
@@ -2527,7 +2527,7 @@ public abstract class Class57 {
 													var7 -= 2;
 													var61 = Class2.aStringArray14[var7];
 													var44 = Class2.aStringArray14[var7 + 1];
-													if (Class31.player.aClass91_2871 != null && Class31.player.aClass91_2871.aBool1076) {
+													if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.aClass91_2871 != null && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.aClass91_2871.aBool1076) {
 														Class2.aStringArray14[var7++] = var44;
 														continue;
 													}
@@ -2622,8 +2622,8 @@ public abstract class Class57 {
 
 														var28 = Class3.method66(var30, (byte) 12);
 														var29 = Class3.method66(var31, (byte) 12);
-														var30 = Player.method3564(var30, var21, -2077379620);
-														var31 = Player.method3564(var31, var21, 1661455120);
+														var30 = Class117_Sub22_Sub18_Sub1_Sub2.method3564(var30, var21, -2077379620);
+														var31 = Class117_Sub22_Sub18_Sub1_Sub2.method3564(var31, var21, 1661455120);
 														if (var30 != var31 && Character.toUpperCase(var30) != Character.toUpperCase(var31)) {
 															var30 = Character.toLowerCase(var30);
 															var31 = Character.toLowerCase(var31);
@@ -3138,8 +3138,8 @@ public abstract class Class57 {
 												}
 
 												if (var39 == 5015) {
-													if (Class31.player != null && Class31.player.playerName != null) {
-														var61 = Class31.player.playerName;
+													if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 != null && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName() != null) {
+														var61 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName();
 													} else {
 														var61 = "";
 													}
@@ -3318,7 +3318,7 @@ public abstract class Class57 {
 
 							if (var39 == 1202) {
 								var17.anInt2080 = 963769753;
-								var17.anInt2015 = Class31.player.aClass91_2871.method1216(-1321735257) * -680726691;
+								var17.anInt2015 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.aClass91_2871.method1216(-1321735257) * -680726691;
 								continue;
 							}
 						}

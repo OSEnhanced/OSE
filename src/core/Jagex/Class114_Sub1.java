@@ -111,7 +111,7 @@ public class Class114_Sub1 extends Class114 {
 						}
 					}
 
-					if (Class32.method472(Class31.player.playerName, Class54.aClass137_729, 1538480085).equals(var3)) {
+					if (Class32.method472(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName(), Class54.aClass137_729, 1538480085).equals(var3)) {
 						Class117_Sub22_Sub1.method2353(30, "", Class108.aString1350, 1120962196);
 					} else {
 						GameClient.aClass117_Sub14_Sub1_2961.method2932(21, 2068981613);

@@ -184,7 +184,7 @@ public final class GameClient extends Applet_Sub1 {
 	static int anInt3033;
 	static int anInt3037;
 	static int anInt2952;
-	static Player[] aClass117_Sub22_Sub18_Sub1_Sub2Array3041;
+	static Class117_Sub22_Sub18_Sub1_Sub2[] aClass117_Sub22_Sub18_Sub1_Sub2Array3041;
 	static int anInt3042;
 	static int anInt3043;
 	static int anInt3044;
@@ -1615,7 +1615,7 @@ public final class GameClient extends Applet_Sub1 {
 									Class95.method1245(Class117_Sub19.aClass117_Sub19ArrayArray2032[var6 >> 16], var166, false, (byte) 4);
 									Class117_Sub22_Sub18_Sub3.method3091(var93, (byte) 12);
 									if (anInt3036 * -1635287017 != -1) {
-										Player.method3543(anInt3036 * -1635287017, 1, -1278238790);
+										Class117_Sub22_Sub18_Sub1_Sub2.method3543(anInt3036 * -1635287017, 1, -1278238790);
 									}
 
 									incomingMessageId = 512475507;
@@ -1788,7 +1788,7 @@ public final class GameClient extends Applet_Sub1 {
 											if (var10 == 0) {
 												Class117_Sub22_Sub18_Sub5.aClass117_Sub13Array2747[var101].anInt1866 = var6 * 1604274713;
 												Class117_Sub22_Sub18_Sub5.aClass117_Sub13Array2747[var101].aByte1867 = var180;
-												if (var102.equals(Class31.player.playerName)) {
+												if (var102.equals(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName())) {
 													Class56.aByte744 = var180;
 												}
 
@@ -1819,7 +1819,7 @@ public final class GameClient extends Applet_Sub1 {
 
 										Class117_Sub22_Sub18_Sub5.aClass117_Sub13Array2747[var101 + 1] = var186;
 										Class29.anInt362 += 1652525763;
-										if (var102.equals(Class31.player.playerName)) {
+										if (var102.equals(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName())) {
 											Class56.aByte744 = var180;
 										}
 									}
@@ -1831,7 +1831,7 @@ public final class GameClient extends Applet_Sub1 {
 								}
 
 								Class117_Sub14_Sub1 var104;
-								Player var109;
+								Class117_Sub22_Sub18_Sub1_Sub2 var109;
 								byte var127;
 								Class90 var140;
 								Class117_Sub14 var149;
@@ -2000,9 +2000,9 @@ public final class GameClient extends Applet_Sub1 {
 											var109.aString2546 = var104.method2018((byte) 12);
 											if (var109.aString2546.charAt(0) == 126) {
 												var109.aString2546 = var109.aString2546.substring(1);
-												Class117_Sub22_Sub1.method2353(2, var109.playerName, var109.aString2546, 1706253768);
-											} else if (var109 == Class31.player) {
-												Class117_Sub22_Sub1.method2353(2, var109.playerName, var109.aString2546, 731288758);
+												Class117_Sub22_Sub1.method2353(2, var109.getPlayerName(), var109.aString2546, 1706253768);
+											} else if (var109 == Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393) {
+												Class117_Sub22_Sub1.method2353(2, var109.getPlayerName(), var109.aString2546, 731288758);
 											}
 
 											var109.aBool2554 = false;
@@ -2034,9 +2034,9 @@ public final class GameClient extends Applet_Sub1 {
 											var153 = var104.method2010(-1439707937) == 1;
 											var15 = var104.method2010(-1439707937);
 											var16 = var104.anInt1880 * 561453169;
-											if (var109.playerName != null && var109.aClass91_2871 != null) {
+											if (var109.getPlayerName() != null && var109.aClass91_2871 != null) {
 												var162 = false;
-												if (var140.aBool1070 && Class117_Sub7.method1951(var109.playerName, (byte) 111)) {
+												if (var140.aBool1070 && Class117_Sub7.method1951(var109.getPlayerName(), (byte) 111)) {
 													var162 = true;
 												}
 
@@ -2066,7 +2066,7 @@ public final class GameClient extends Applet_Sub1 {
 													var109.anInt2580 = (var12 & 255) * -2038086947;
 													var109.anInt2556 = -1497138754;
 													var109.aBool2554 = var153;
-													var109.aBool2555 = var109 != Class31.player && var140.aBool1070 && aString3139 != "" && var169.toLowerCase().indexOf(aString3139) == -1;
+													var109.aBool2555 = var109 != Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 && var140.aBool1070 && aString3139 != "" && var169.toLowerCase().indexOf(aString3139) == -1;
 													if (var140.aBool1069) {
 														var22 = var153 ? 91 : 1;
 													} else {
@@ -2074,9 +2074,9 @@ public final class GameClient extends Applet_Sub1 {
 													}
 
 													if (var140.anInt1068 * 309306431 != -1) {
-														Class117_Sub22_Sub1.method2353(var22, Class44.method736(var140.anInt1068 * 309306431, -835690016) + var109.playerName, var169, 1622757923);
+														Class117_Sub22_Sub1.method2353(var22, Class44.method736(var140.anInt1068 * 309306431, -835690016) + var109.getPlayerName(), var169, 1622757923);
 													} else {
-														Class117_Sub22_Sub1.method2353(var22, var109.playerName, var169, 328299866);
+														Class117_Sub22_Sub1.method2353(var22, var109.getPlayerName(), var169, 328299866);
 													}
 												}
 											}
@@ -2366,9 +2366,9 @@ public final class GameClient extends Applet_Sub1 {
 											var109.aString2546 = var124.method2018((byte) -29);
 											if (var109.aString2546.charAt(0) == 126) {
 												var109.aString2546 = var109.aString2546.substring(1);
-												Class117_Sub22_Sub1.method2353(2, var109.playerName, var109.aString2546, 1307345805);
-											} else if (Class31.player == var109) {
-												Class117_Sub22_Sub1.method2353(2, var109.playerName, var109.aString2546, 1798333555);
+												Class117_Sub22_Sub1.method2353(2, var109.getPlayerName(), var109.aString2546, 1307345805);
+											} else if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 == var109) {
+												Class117_Sub22_Sub1.method2353(2, var109.getPlayerName(), var109.aString2546, 1798333555);
 											}
 
 											var109.aBool2554 = false;
@@ -2400,9 +2400,9 @@ public final class GameClient extends Applet_Sub1 {
 											var153 = var124.method2010(-1439707937) == 1;
 											var15 = var124.method2010(-1439707937);
 											var16 = var124.anInt1880 * 561453169;
-											if (var109.playerName != null && var109.aClass91_2871 != null) {
+											if (var109.getPlayerName() != null && var109.aClass91_2871 != null) {
 												var162 = false;
-												if (var140.aBool1070 && Class117_Sub7.method1951(var109.playerName, (byte) 100)) {
+												if (var140.aBool1070 && Class117_Sub7.method1951(var109.getPlayerName(), (byte) 100)) {
 													var162 = true;
 												}
 
@@ -2432,7 +2432,7 @@ public final class GameClient extends Applet_Sub1 {
 													var109.anInt2580 = (var12 & 255) * -2038086947;
 													var109.anInt2556 = -1497138754;
 													var109.aBool2554 = var153;
-													var109.aBool2555 = var109 != Class31.player && var140.aBool1070 && aString3139 != "" && var169.toLowerCase().indexOf(aString3139) == -1;
+													var109.aBool2555 = var109 != Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 && var140.aBool1070 && aString3139 != "" && var169.toLowerCase().indexOf(aString3139) == -1;
 													if (var140.aBool1069) {
 														var22 = var153 ? 91 : 1;
 													} else {
@@ -2440,9 +2440,9 @@ public final class GameClient extends Applet_Sub1 {
 													}
 
 													if (var140.anInt1068 * 309306431 != -1) {
-														Class117_Sub22_Sub1.method2353(var22, Class44.method736(var140.anInt1068 * 309306431, -876901372) + var109.playerName, var169, 72563473);
+														Class117_Sub22_Sub1.method2353(var22, Class44.method736(var140.anInt1068 * 309306431, -876901372) + var109.getPlayerName(), var169, 72563473);
 													} else {
-														Class117_Sub22_Sub1.method2353(var22, var109.playerName, var169, 564524694);
+														Class117_Sub22_Sub1.method2353(var22, var109.getPlayerName(), var169, 564524694);
 													}
 												}
 											}
@@ -3200,7 +3200,7 @@ public final class GameClient extends Applet_Sub1 {
 
 								if (incomingMessageId * 712029253 == 233) {
 									if (anInt3036 * -1635287017 != -1) {
-										Player.method3543(anInt3036 * -1635287017, 0, -181042093);
+										Class117_Sub22_Sub18_Sub1_Sub2.method3543(anInt3036 * -1635287017, 0, -181042093);
 									}
 
 									incomingMessageId = 512475507;
@@ -3235,7 +3235,7 @@ public final class GameClient extends Applet_Sub1 {
 									}
 
 									if (anInt3036 * -1635287017 != -1) {
-										Player.method3543(anInt3036 * -1635287017, 1, -1425433888);
+										Class117_Sub22_Sub18_Sub1_Sub2.method3543(anInt3036 * -1635287017, 1, -1425433888);
 									}
 
 									incomingMessageId = 512475507;
@@ -3328,7 +3328,7 @@ public final class GameClient extends Applet_Sub1 {
 									var5 = aClass117_Sub14_Sub1_2953.method2015((byte) 119);
 									var142 = Class74.method1010(var5, -455185626);
 									var142.anInt2080 = 963769753;
-									var142.anInt2015 = Class31.player.aClass91_2871.method1216(-540744955) * -680726691;
+									var142.anInt2015 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.aClass91_2871.method1216(-540744955) * -680726691;
 									Class54.method850(var142, (byte) 0);
 									incomingMessageId = 512475507;
 									var90 = true;
@@ -3384,7 +3384,7 @@ public final class GameClient extends Applet_Sub1 {
 										var188[var99].anInt1866 = aClass117_Sub14_Sub1_2953.method2012(1053511631) * 1604274713;
 										var188[var99].aByte1867 = aClass117_Sub14_Sub1_2953.method1997(-592625547);
 										aClass117_Sub14_Sub1_2953.method2018((byte) 17);
-										if (var188[var99].aString1870.equals(Class31.player.playerName)) {
+										if (var188[var99].aString1870.equals(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName())) {
 											Class56.aByte744 = var188[var99].aByte1867;
 										}
 									}
@@ -3726,9 +3726,9 @@ public final class GameClient extends Applet_Sub1 {
 											var109.aString2546 = var124.method2018((byte) -49);
 											if (var109.aString2546.charAt(0) == 126) {
 												var109.aString2546 = var109.aString2546.substring(1);
-												Class117_Sub22_Sub1.method2353(2, var109.playerName, var109.aString2546, 1622709743);
-											} else if (Class31.player == var109) {
-												Class117_Sub22_Sub1.method2353(2, var109.playerName, var109.aString2546, 156018729);
+												Class117_Sub22_Sub1.method2353(2, var109.getPlayerName(), var109.aString2546, 1622709743);
+											} else if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 == var109) {
+												Class117_Sub22_Sub1.method2353(2, var109.getPlayerName(), var109.aString2546, 156018729);
 											}
 
 											var109.aBool2554 = false;
@@ -3760,9 +3760,9 @@ public final class GameClient extends Applet_Sub1 {
 											var153 = var124.method2010(-1439707937) == 1;
 											var15 = var124.method2010(-1439707937);
 											var16 = var124.anInt1880 * 561453169;
-											if (var109.playerName != null && var109.aClass91_2871 != null) {
+											if (var109.getPlayerName() != null && var109.aClass91_2871 != null) {
 												var162 = false;
-												if (var140.aBool1070 && Class117_Sub7.method1951(var109.playerName, (byte) 104)) {
+												if (var140.aBool1070 && Class117_Sub7.method1951(var109.getPlayerName(), (byte) 104)) {
 													var162 = true;
 												}
 
@@ -3792,7 +3792,7 @@ public final class GameClient extends Applet_Sub1 {
 													var109.anInt2580 = (var12 & 255) * -2038086947;
 													var109.anInt2556 = -1497138754;
 													var109.aBool2554 = var153;
-													var109.aBool2555 = Class31.player != var109 && var140.aBool1070 && aString3139 != "" && var169.toLowerCase().indexOf(aString3139) == -1;
+													var109.aBool2555 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 != var109 && var140.aBool1070 && aString3139 != "" && var169.toLowerCase().indexOf(aString3139) == -1;
 													if (var140.aBool1069) {
 														var22 = var153 ? 91 : 1;
 													} else {
@@ -3800,9 +3800,9 @@ public final class GameClient extends Applet_Sub1 {
 													}
 
 													if (var140.anInt1068 * 309306431 != -1) {
-														Class117_Sub22_Sub1.method2353(var22, Class44.method736(var140.anInt1068 * 309306431, -93013610) + var109.playerName, var169, 130890029);
+														Class117_Sub22_Sub1.method2353(var22, Class44.method736(var140.anInt1068 * 309306431, -93013610) + var109.getPlayerName(), var169, 130890029);
 													} else {
-														Class117_Sub22_Sub1.method2353(var22, var109.playerName, var169, 1609575995);
+														Class117_Sub22_Sub1.method2353(var22, var109.getPlayerName(), var169, 1609575995);
 													}
 												}
 											}
@@ -4086,7 +4086,7 @@ public final class GameClient extends Applet_Sub1 {
 							} catch (IOException var84) {
 								Class117_Sub7.method1953(-70660976);
 							} catch (Exception var85) {
-								var102 = "" + incomingMessageId * 712029253 + Class39.aString478 + anInt2969 * 2028811025 + Class39.aString478 + anInt2992 * 449003593 + Class39.aString478 + anInt2964 * 1735245331 + Class39.aString478 + (Class117_Sub22_Sub20.anInt2497 * 544615727 + Class31.player.anIntArray2594[0]) + Class39.aString478 + (Class117_Sub22_Sub19.anInt2468 * -771797447 + Class31.player.anIntArray2541[0]) + Class39.aString478;
+								var102 = "" + incomingMessageId * 712029253 + Class39.aString478 + anInt2969 * 2028811025 + Class39.aString478 + anInt2992 * 449003593 + Class39.aString478 + anInt2964 * 1735245331 + Class39.aString478 + (Class117_Sub22_Sub20.anInt2497 * 544615727 + Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2594[0]) + Class39.aString478 + (Class117_Sub22_Sub19.anInt2468 * -771797447 + Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2541[0]) + Class39.aString478;
 
 								for (var6 = 0; var6 < anInt2964 * 1735245331 && var6 < 50; var6++) {
 									var102 = var102 + aClass117_Sub14_Sub1_2953.aByteArray1885[var6] + Class39.aString478;
@@ -4264,7 +4264,7 @@ public final class GameClient extends Applet_Sub1 {
 					Class97.method1256(1599221330);
 					if (anInt2924 * 935215971 == 30) {
 						Class117_Sub6.method1944(-1746769057);
-						Player.method3560(878007666);
+						Class117_Sub22_Sub18_Sub1_Sub2.method3560(878007666);
 						anInt2966 -= 933719009;
 						if (anInt2966 * 1693575135 > 750) {
 							Class117_Sub7.method1953(1249091719);
@@ -4273,7 +4273,7 @@ public final class GameClient extends Applet_Sub1 {
 							int[] var195 = Class4.anIntArray41;
 
 							for (var89 = 0; var89 < var2; var89++) {
-								Player var202 = aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var195[var89]];
+								Class117_Sub22_Sub18_Sub1_Sub2 var202 = aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var195[var89]];
 								if (var202 != null) {
 									Class7.method116(var202, 1, 384007564);
 								}
@@ -4283,7 +4283,7 @@ public final class GameClient extends Applet_Sub1 {
 							int[] var94 = Class4.anIntArray41;
 
 							for (var3 = 0; var3 < Class4.anInt46 * -1915182763; var3++) {
-								Player var110 = aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var94[var3]];
+								Class117_Sub22_Sub18_Sub1_Sub2 var110 = aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var94[var3]];
 								if (var110 != null && var110.anInt2556 * -319635947 > 0) {
 									var110.anInt2556 += 754441923;
 									if (var110.anInt2556 * -319635947 == 0) {
@@ -4633,8 +4633,8 @@ public final class GameClient extends Applet_Sub1 {
 																		anInt3069 -= 1456528775;
 																	}
 
-																	var89 = anInt2939 * 805374805 + Class31.player.anInt2577 * 1961555871;
-																	var5 = Class31.player.anInt2567 * -184603173 + anInt3145 * -1729719107;
+																	var89 = anInt2939 * 805374805 + Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871;
+																	var5 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 + anInt3145 * -1729719107;
 																	if (Class117_Sub12.anInt1854 * 1354878175 - var89 < -500 || Class117_Sub12.anInt1854 * 1354878175 - var89 > 500 || Class54.anInt737 * -815988555 - var5 < -500 || Class54.anInt737 * -815988555 - var5 > 500) {
 																		Class117_Sub12.anInt1854 = var89 * 2050813727;
 																		Class54.anInt737 = var5 * 1702096285;
@@ -5415,7 +5415,7 @@ public final class GameClient extends Applet_Sub1 {
 		aBool3038 = false;
 		anInt3039 = 0;
 		anInt2952 = 0;
-		aClass117_Sub22_Sub18_Sub1_Sub2Array3041 = new Player[2048];
+		aClass117_Sub22_Sub18_Sub1_Sub2Array3041 = new Class117_Sub22_Sub18_Sub1_Sub2[2048];
 		anInt3042 = 1722457709;
 		anInt3043 = 0;
 		anInt3044 = 0;

@@ -204,7 +204,7 @@ public class Class7 {
 			var0.method3080(1215155572);
 		}
 
-		if (Class31.player == var0 && (var0.anInt2577 * 1961555871 < 1536 || var0.anInt2567 * -184603173 < 1536 || var0.anInt2577 * 1961555871 >= 11776 || var0.anInt2567 * -184603173 >= 11776)) {
+		if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 == var0 && (var0.anInt2577 * 1961555871 < 1536 || var0.anInt2567 * -184603173 < 1536 || var0.anInt2577 * 1961555871 >= 11776 || var0.anInt2567 * -184603173 >= 11776)) {
 			var0.anInt2558 = -1804599217;
 			var0.anInt2550 = 953061807;
 			var0.anInt2585 = 0;

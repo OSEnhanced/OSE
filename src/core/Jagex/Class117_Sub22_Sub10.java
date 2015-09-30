@@ -369,7 +369,7 @@ public class Class117_Sub22_Sub10 extends Class117_Sub22 {
 					}
 				}
 
-				Player var5;
+				Class117_Sub22_Sub18_Sub1_Sub2 var5;
 				Class117_Sub22_Sub18_Sub1_Sub1 var20;
 				int[] var21;
 				int var24;
@@ -403,7 +403,7 @@ public class Class117_Sub22_Sub10 extends Class117_Sub22 {
 				}
 
 				if (var13 == 0) {
-					Player var29 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var15];
+					Class117_Sub22_Sub18_Sub1_Sub2 var29 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var15];
 					if (var29 == null) {
 						continue;
 					}
@@ -491,7 +491,7 @@ public class Class117_Sub22_Sub10 extends Class117_Sub22 {
 		if (var10 != -1) {
 			var18 = var10 & 127;
 			var14 = var10 >> 7 & 127;
-			Player var23 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[GameClient.anInt3084 * 833823819];
+			Class117_Sub22_Sub18_Sub1_Sub2 var23 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[GameClient.anInt3084 * 833823819];
 			Class32.method469(var23, GameClient.anInt3084 * 833823819, var18, var14, (byte) 0);
 		}
 
@@ -547,9 +547,9 @@ public class Class117_Sub22_Sub10 extends Class117_Sub22 {
 				byte var28 = GameClient.aClass117_Sub14_Sub1_2953.method1998((short) 27980);
 				int var14 = GameClient.aClass117_Sub14_Sub1_2953.method2046(-2146381276);
 				byte var8 = GameClient.aClass117_Sub14_Sub1_2953.method2110(1053511631);
-				Player var15;
+				Class117_Sub22_Sub18_Sub1_Sub2 var15;
 				if (GameClient.anInt3042 * 610133147 == var14) {
-					var15 = Class31.player;
+					var15 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393;
 				} else {
 					var15 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var14];
 				}
@@ -640,7 +640,7 @@ public class Class117_Sub22_Sub10 extends Class117_Sub22 {
 					var10 = GameClient.aClass117_Sub14_Sub1_2953.method2010(-1439707937);
 					if (var2 >= 0 && var5 >= 0 && var2 < 104 && var5 < 104) {
 						var12 = 1 + var4;
-						if (Class31.player.anIntArray2594[0] >= var2 - var12 && Class31.player.anIntArray2594[0] <= var2 + var12 && Class31.player.anIntArray2541[0] >= var5 - var12 && Class31.player.anIntArray2541[0] <= var12 + var5 && GameClient.anInt2948 * 1581116715 != 0 && var6 > 0 && GameClient.anInt3162 * 1572335207 < 50) {
+						if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2594[0] >= var2 - var12 && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2594[0] <= var2 + var12 && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2541[0] >= var5 - var12 && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2541[0] <= var12 + var5 && GameClient.anInt2948 * 1581116715 != 0 && var6 > 0 && GameClient.anInt3162 * 1572335207 < 50) {
 							GameClient.anIntArray3163[GameClient.anInt3162 * 1572335207] = var9;
 							GameClient.anIntArray3164[GameClient.anInt3162 * 1572335207] = var6;
 							GameClient.anIntArray3165[GameClient.anInt3162 * 1572335207] = var10;

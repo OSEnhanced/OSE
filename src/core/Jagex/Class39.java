@@ -5,7 +5,7 @@ public class Class39 {
 
 	static final int anInt476 = 102;
 	public static final int anInt484 = 132;
-	public static Class117_Sub22_Sub17_Sub4_Sub1 aClass117_Sub22_Sub17_Sub4_Sub1_485;
+	static Class117_Sub22_Sub17_Sub4_Sub1 aClass117_Sub22_Sub17_Sub4_Sub1_485;
 	static final int anInt486 = 2160;
 	static Clipboard aClipboard487;
 	public static int anInt488;

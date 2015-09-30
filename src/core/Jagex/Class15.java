@@ -82,7 +82,7 @@ public class Class15 {
 	static void method313(Class117_Sub14_Sub1 var0, int var1) {
 		var0.method2930(1848760424);
 		int var4 = GameClient.anInt3042 * 610133147;
-		Player var5 = Class31.player = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var4] = new Player();
+		Class117_Sub22_Sub18_Sub1_Sub2 var5 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var4] = new Class117_Sub22_Sub18_Sub1_Sub2();
 		var5.anInt2894 = var4 * -743481251;
 		int var3 = var0.method2931(30, -1320315244);
 		byte var6 = (byte) (var3 >> 28);
@@ -124,7 +124,7 @@ public class Class15 {
 		int var3 = 0;
 
 		for (int var4 = 0; var4 < var2; var4++) {
-			var3 = (var3 << 5) - var3 + Player.method3548(var0.charAt(var4), -252301105);
+			var3 = (var3 << 5) - var3 + Class117_Sub22_Sub18_Sub1_Sub2.method3548(var0.charAt(var4), -252301105);
 		}
 
 		return var3;

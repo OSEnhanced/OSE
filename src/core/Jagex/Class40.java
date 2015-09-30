@@ -284,7 +284,7 @@ public final class Class40 {
 			}
 		}
 
-		method527(Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421, Class31.player.anInt2577 * 1961555871, Class31.player.anInt2567 * -184603173, GameClient.anInt3092 * -402053703, 1759318775);
+		method527(Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421, Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871, Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173, GameClient.anInt3092 * -402053703, 1759318775);
 		GameClient.anInt3092 = 0;
 	}
 

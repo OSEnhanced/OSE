@@ -3,7 +3,7 @@ public class Class108 {
 
 	public static String aString1341 = "Members object";
 	public static String aString1246 = "Take";
-	public static String aString1468 = "Drop";
+	public static String aString1468 = "ANUL";
 	public static String aString1392 = "Hidden";
 	public static String aString1230 = "Ok";
 	public static String aString1204 = "Select";
@@ -152,7 +152,7 @@ public class Class108 {
 	public static String aString1347 = " has logged in.";
 	public static String aString1348 = " has logged out.";
 	public static String aString1403 = "Unable to find ";
-	public static String aString1326 = "Use";
+	public static String aString1326 = "X123";
 	public static String aString1351 = "Examine";
 	public static String aString1352 = "Attack";
 	public static String aString1247 = "Choose Option";

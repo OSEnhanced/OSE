@@ -37,7 +37,7 @@ public class Class84 {
 				}
 			}
 
-			if (var4.equalsIgnoreCase(Class32.method472(Class31.player.playerName, Class54.aClass137_729, 1538480085))) {
+			if (var4.equalsIgnoreCase(Class32.method472(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName(), Class54.aClass137_729, 1538480085))) {
 				return true;
 			} else {
 				return false;

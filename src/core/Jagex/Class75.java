@@ -145,7 +145,7 @@ public class Class75 implements MouseListener, MouseMotionListener, FocusListene
 		Class95.method1245(Class117_Sub19.aClass117_Sub19ArrayArray2032[var0 >> 16], var5, false, (byte) 4);
 		Class117_Sub22_Sub18_Sub3.method3091(var1, (byte) 94);
 		if (GameClient.anInt3036 * -1635287017 != -1) {
-			Player.method3543(GameClient.anInt3036 * -1635287017, 1, -1550534219);
+			Class117_Sub22_Sub18_Sub1_Sub2.method3543(GameClient.anInt3036 * -1635287017, 1, -1550534219);
 		}
 
 		return var4;

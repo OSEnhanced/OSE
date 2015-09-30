@@ -136,7 +136,7 @@ public final class Class89 implements KeyListener, FocusListener {
 		var1.consume();
 	}
 
-	static void method1184(Player var0, int var1, int var2, byte var3, byte var4) {
+	static void method1184(Class117_Sub22_Sub18_Sub1_Sub2 var0, int var1, int var2, byte var3, byte var4) {
 		int var5 = var0.anIntArray2594[0];
 		int var8 = var0.anIntArray2541[0];
 		if (var5 >= 0 && var5 < 104 && var8 >= 0 && var8 < 104) {

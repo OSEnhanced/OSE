@@ -146,7 +146,7 @@ public final class Class117_Sub9 extends Class117 {
 				var13.anInt2544 = var13.aClass117_Sub22_Sub5_2864.anInt2189 * 217254897;
 				var13.anInt2595 = var13.aClass117_Sub22_Sub5_2864.anInt2188 * 1480559065;
 				var13.anInt2547 = var13.aClass117_Sub22_Sub5_2864.anInt2191 * 913767589;
-				var13.method3535(var12 + Class31.player.anIntArray2594[0], var5 + Class31.player.anIntArray2541[0], var7 == 1, -1184120092);
+				var13.method3535(var12 + Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2594[0], var5 + Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anIntArray2541[0], var7 == 1, -1184120092);
 			}
 
 			GameClient.aClass117_Sub14_Sub1_2953.method2945(1553654871);
@@ -276,9 +276,9 @@ public final class Class117_Sub9 extends Class117 {
 	}
 
 	static int method1968(int var0, int var1, int var2) {
-		int var3 = Player.method3562(var0 - 1, var1 - 1, 1894755836) + Player.method3562(var0 + 1, var1 - 1, 2137965465) + Player.method3562(var0 - 1, var1 + 1, 1164452250) + Player.method3562(1 + var0, 1 + var1, 1393101439);
-		int var5 = Player.method3562(var0 - 1, var1, 892195166) + Player.method3562(var0 + 1, var1, 1721348760) + Player.method3562(var0, var1 - 1, 1731132968) + Player.method3562(var0, 1 + var1, 1501639555);
-		int var4 = Player.method3562(var0, var1, 974642342);
+		int var3 = Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0 - 1, var1 - 1, 1894755836) + Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0 + 1, var1 - 1, 2137965465) + Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0 - 1, var1 + 1, 1164452250) + Class117_Sub22_Sub18_Sub1_Sub2.method3562(1 + var0, 1 + var1, 1393101439);
+		int var5 = Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0 - 1, var1, 892195166) + Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0 + 1, var1, 1721348760) + Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0, var1 - 1, 1731132968) + Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0, 1 + var1, 1501639555);
+		int var4 = Class117_Sub22_Sub18_Sub1_Sub2.method3562(var0, var1, 974642342);
 		return var5 / 8 + var3 / 16 + var4 / 4;
 	}
 

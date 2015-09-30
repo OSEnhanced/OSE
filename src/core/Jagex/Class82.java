@@ -26,7 +26,7 @@ public class Class82 {
 		}
 
 		int var5 = var0.method2931(2, -1320315244);
-		Player var3 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var1];
+		Class117_Sub22_Sub18_Sub1_Sub2 var3 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var1];
 		if (var5 == 0) {
 			if (var4) {
 				var3.aBool2879 = false;

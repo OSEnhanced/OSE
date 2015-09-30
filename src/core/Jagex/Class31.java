@@ -13,7 +13,7 @@ public final class Class31 {
 	static int[][] anIntArrayArray386;
 	static final int anInt387 = 585;
 	static final int anInt388 = 1170;
-	static Player player;
+	public static Class117_Sub22_Sub18_Sub1_Sub2 aClass117_Sub22_Sub18_Sub1_Sub2_393;
 	static final int anInt397 = 4;
 	static final int anInt398 = 2;
 	static FontMetrics aFontMetrics400;

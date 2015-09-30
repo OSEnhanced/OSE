@@ -102,7 +102,7 @@ public abstract class Class117_Sub22_Sub17_Sub4 extends Class117_Sub22_Sub17 {
 			var1 = 32;
 		}
 
-		return anIntArray2845[Player.method3548(var1, 289789629) & 255];
+		return anIntArray2845[Class117_Sub22_Sub18_Sub1_Sub2.method3548(var1, 289789629) & 255];
 	}
 
 	public int method3454(String var1) {
@@ -147,7 +147,7 @@ public abstract class Class117_Sub22_Sub17_Sub4 extends Class117_Sub22_Sub17 {
 					}
 
 					if (var2 == -1) {
-						var4 += anIntArray2845[(char) (Player.method3548(var6, -541067469) & 255)];
+						var4 += anIntArray2845[(char) (Class117_Sub22_Sub18_Sub1_Sub2.method3548(var6, -541067469) & 255)];
 						if (aByteArray2851 != null && var3 != -1) {
 							var4 += aByteArray2851[(var3 << 8) + var6];
 						}
@@ -538,7 +538,7 @@ public abstract class Class117_Sub22_Sub17_Sub4 extends Class117_Sub22_Sub17 {
 
 		for (int var6 = 0; var6 < var1.length(); var6++) {
 			if (var1.charAt(var6) != 0) {
-				char var7 = (char) (Player.method3548(var1.charAt(var6), -1168820199) & 255);
+				char var7 = (char) (Class117_Sub22_Sub18_Sub1_Sub2.method3548(var1.charAt(var6), -1168820199) & 255);
 				if (var7 == 60) {
 					var4 = var6;
 				} else {
@@ -628,7 +628,7 @@ public abstract class Class117_Sub22_Sub17_Sub4 extends Class117_Sub22_Sub17 {
 
 		for (int var9 = 0; var9 < var1.length(); var9++) {
 			if (var1.charAt(var9) != 0) {
-				char var10 = (char) (Player.method3548(var1.charAt(var9), -1904287821) & 255);
+				char var10 = (char) (Class117_Sub22_Sub18_Sub1_Sub2.method3548(var1.charAt(var9), -1904287821) & 255);
 				if (var10 == 60) {
 					var6 = var9;
 				} else {

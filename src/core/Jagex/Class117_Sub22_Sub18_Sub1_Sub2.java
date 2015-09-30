@@ -1,5 +1,5 @@
 package core.Jagex;
-public final class Player extends Class117_Sub22_Sub18_Sub1 {
+public final class Class117_Sub22_Sub18_Sub1_Sub2 extends Class117_Sub22_Sub18_Sub1 {
 
 	int anInt2870;
 	int anInt2875;
@@ -16,7 +16,7 @@ public final class Player extends Class117_Sub22_Sub18_Sub1 {
 	int anInt2872 = 1459841763;
 	int anInt2877 = 209926757;
 	int anInt2888 = 0;
-	String playerName = "";
+	private String aString2880;
 	int anInt2874 = 0;
 	int anInt2873 = 0;
 	boolean aBool2883 = false;
@@ -110,9 +110,9 @@ public final class Player extends Class117_Sub22_Sub18_Sub1 {
 			anInt2552 = -865322311;
 		}
 
-		playerName = var1.method2018((byte) -6);
-		if (Class31.player == this) {
-			RuntimeException_Sub1.aString2831 = playerName;
+		setaString2880(var1.method2018((byte) -6));
+		if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 == this) {
+			RuntimeException_Sub1.aString2831 = getPlayerName();
 		}
 
 		anInt2874 = var1.method2010(-1439707937) * -2016700893;
@@ -362,13 +362,13 @@ public final class Player extends Class117_Sub22_Sub18_Sub1 {
 					if (GameClient.anIntArray2959[var1] != 0) {
 						int var7 = (GameClient.anIntArray2959[var1] & 255) * 128;
 						int var5 = GameClient.anIntArray2959[var1] >> 16 & 255;
-						int var8 = var5 * 128 + 64 - Class31.player.anInt2577 * 1961555871;
+						int var8 = var5 * 128 + 64 - Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871;
 						if (var8 < 0) {
 							var8 = -var8;
 						}
 
 						int var2 = GameClient.anIntArray2959[var1] >> 8 & 255;
-						int var3 = 64 + var2 * 128 - Class31.player.anInt2567 * -184603173;
+						int var3 = 64 + var2 * 128 - Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173;
 						if (var3 < 0) {
 							var3 = -var3;
 						}
@@ -501,6 +501,14 @@ public final class Player extends Class117_Sub22_Sub18_Sub1 {
 		} else {
 			return var0;
 		}
+	}
+
+	public String getPlayerName() {
+		return aString2880;
+	}
+
+	public void setaString2880(String aString2880) {
+		this.aString2880 = aString2880;
 	}
 
 }

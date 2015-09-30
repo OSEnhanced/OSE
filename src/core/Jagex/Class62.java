@@ -92,7 +92,7 @@ public class Class62 {
 					}
 
 					if (var7 == 8) {
-						var8 = Class31.player.anInt2874 * -1654863477;
+						var8 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2874 * -1654863477;
 					}
 
 					if (var7 == 9) {
@@ -150,11 +150,11 @@ public class Class62 {
 					}
 
 					if (var7 == 18) {
-						var8 = Class117_Sub22_Sub20.anInt2497 * 544615727 + (Class31.player.anInt2577 * 1961555871 >> 7);
+						var8 = Class117_Sub22_Sub20.anInt2497 * 544615727 + (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 >> 7);
 					}
 
 					if (var7 == 19) {
-						var8 = Class117_Sub22_Sub19.anInt2468 * -771797447 + (Class31.player.anInt2567 * -184603173 >> 7);
+						var8 = Class117_Sub22_Sub19.anInt2468 * -771797447 + (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 >> 7);
 					}
 
 					if (var7 == 20) {

@@ -106,7 +106,7 @@ public final class Class8_Sub1 extends Class8 implements ImageProducer, ImageObs
 			int var8;
 			if (var1 < var11) {
 				var8 = 30;
-				Player var9 = (Player) var0;
+				Class117_Sub22_Sub18_Sub1_Sub2 var9 = (Class117_Sub22_Sub18_Sub1_Sub2) var0;
 				if (var9.aBool2883) {
 					return;
 				}
@@ -153,7 +153,7 @@ public final class Class8_Sub1 extends Class8 implements ImageProducer, ImageObs
 				}
 			}
 
-			if (var0.aString2546 != null && (var1 >= var11 || !var0.aBool2555 && (GameClient.anInt3026 * -1711687437 == 4 || !var0.aBool2554 && (GameClient.anInt3026 * -1711687437 == 0 || GameClient.anInt3026 * -1711687437 == 3 || GameClient.anInt3026 * -1711687437 == 1 && Class84.method1141(((Player) var0).playerName, false, 2006421320))))) {
+			if (var0.aString2546 != null && (var1 >= var11 || !var0.aBool2555 && (GameClient.anInt3026 * -1711687437 == 4 || !var0.aBool2554 && (GameClient.anInt3026 * -1711687437 == 0 || GameClient.anInt3026 * -1711687437 == 3 || GameClient.anInt3026 * -1711687437 == 1 && Class84.method1141(((Class117_Sub22_Sub18_Sub1_Sub2) var0).getPlayerName(), false, 2006421320))))) {
 				Class65.method946(var0, var0.anInt2589 * 1872277641, -848653062);
 				if (GameClient.anInt2941 * -1957489215 > -1 && GameClient.anInt3014 * 1004179943 < GameClient.anInt3015 * 1704437183) {
 					GameClient.anIntArray3007[GameClient.anInt3014 * 1004179943] = Class54_Sub1.aClass117_Sub22_Sub17_Sub4_Sub1_1729.method3454(var0.aString2546) / 2;

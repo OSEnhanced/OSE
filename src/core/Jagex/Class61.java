@@ -193,7 +193,7 @@ public class Class61 {
 		}
 	}
 
-	static void method921(Player var0, int var1, int var2, int var3) {
+	static void method921(Class117_Sub22_Sub18_Sub1_Sub2 var0, int var1, int var2, int var3) {
 		if (var0.anInt2558 * -919017135 == var1 && var1 != -1) {
 			int var4 = Class114_Sub1.method1838(var1, (byte) -73).anInt2416 * -1912420809;
 			if (var4 == 1) {

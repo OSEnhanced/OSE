@@ -103,8 +103,8 @@ public class Class73_Sub2 extends Class73 {
 
 	static void method2220(int var0) {
 		GameClient.anInt2952 = 0;
-		int var1 = (Class31.player.anInt2577 * 1961555871 >> 7) + Class117_Sub22_Sub20.anInt2497 * 544615727;
-		int var2 = Class117_Sub22_Sub19.anInt2468 * -771797447 + (Class31.player.anInt2567 * -184603173 >> 7);
+		int var1 = (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 >> 7) + Class117_Sub22_Sub20.anInt2497 * 544615727;
+		int var2 = Class117_Sub22_Sub19.anInt2468 * -771797447 + (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 >> 7);
 		if (var1 >= 3053 && var1 <= 3156 && var2 >= 3056 && var2 <= 3136) {
 			GameClient.anInt2952 = -2126163005;
 		}

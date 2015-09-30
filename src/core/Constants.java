@@ -5,6 +5,8 @@ package core;
 
 import javax.swing.JFrame;
 
+import core.Jagex.Class31;
+
 /**
  * @author Biocide
  *
@@ -20,5 +22,5 @@ public abstract interface Constants {
 	public static final String CLIENT_NAME = "OS-Enhanced";
 	public static final int GET_CLOSE_OPERATION = JFrame.EXIT_ON_CLOSE;
 	public static final boolean RESIZEABLE = false;
-	
+	public static final String message = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.getPlayerName();
 }

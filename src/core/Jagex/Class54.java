@@ -140,19 +140,19 @@ public abstract class Class54 {
 				} else if (GameClient.anInt2943 * 1744152389 == 50) {
 					var1 = 0;
 					if (GameClient.aClass117_Sub22_Sub17_Sub4_Sub1_2973 == null) {
-						GameClient.aClass117_Sub22_Sub17_Sub4_Sub1_2973 = Player.method3549(Class117_Sub13.aClass106_Sub1_1868, Class32.aClass106_Sub1_412, "p11_full", "", 1405634691);
+						GameClient.aClass117_Sub22_Sub17_Sub4_Sub1_2973 = Class117_Sub22_Sub18_Sub1_Sub2.method3549(Class117_Sub13.aClass106_Sub1_1868, Class32.aClass106_Sub1_412, "p11_full", "", 1405634691);
 					} else {
 						++var1;
 					}
 
 					if (Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485 == null) {
-						Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485 = Player.method3549(Class117_Sub13.aClass106_Sub1_1868, Class32.aClass106_Sub1_412, "p12_full", "", 1405634691);
+						Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485 = Class117_Sub22_Sub18_Sub1_Sub2.method3549(Class117_Sub13.aClass106_Sub1_1868, Class32.aClass106_Sub1_412, "p12_full", "", 1405634691);
 					} else {
 						++var1;
 					}
 
 					if (Class54_Sub1.aClass117_Sub22_Sub17_Sub4_Sub1_1729 == null) {
-						Class54_Sub1.aClass117_Sub22_Sub17_Sub4_Sub1_1729 = Player.method3549(Class117_Sub13.aClass106_Sub1_1868, Class32.aClass106_Sub1_412, "b12_full", "", 1405634691);
+						Class54_Sub1.aClass117_Sub22_Sub17_Sub4_Sub1_1729 = Class117_Sub22_Sub18_Sub1_Sub2.method3549(Class117_Sub13.aClass106_Sub1_1868, Class32.aClass106_Sub1_412, "b12_full", "", 1405634691);
 					} else {
 						++var1;
 					}

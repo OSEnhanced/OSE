@@ -48,9 +48,9 @@ public final class Canvas_Sub1 extends Canvas {
 
 					if (var32.anInt2736 * 635811343 < 0) {
 						var9 = -(var32.anInt2736 * 635811343) - 1;
-						Player var31;
+						Class117_Sub22_Sub18_Sub1_Sub2 var31;
 						if (var9 == GameClient.anInt3042 * 610133147) {
-							var31 = Class31.player;
+							var31 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393;
 						} else {
 							var31 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var9];
 						}
@@ -88,7 +88,7 @@ public final class Canvas_Sub1 extends Canvas {
 			}
 
 			var33 = GameClient.anInt2987 * 826775265 + GameClient.anInt3005 * -1204229987 & 2047;
-			Class117_Sub22_Sub6.method2452(Class117_Sub12.anInt1854 * 1354878175, Class44.method729(Class31.player.anInt2577 * 1961555871, Class31.player.anInt2567 * -184603173, Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421, 202704696) - GameClient.anInt3010 * -1599348097, Class54.anInt737 * -815988555, var15, var33, var15 * 3 + 600, (byte) 8);
+			Class117_Sub22_Sub6.method2452(Class117_Sub12.anInt1854 * 1354878175, Class44.method729(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871, Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173, Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421, 202704696) - GameClient.anInt3010 * -1599348097, Class54.anInt737 * -815988555, var15, var33, var15 * 3 + 600, (byte) 8);
 		}
 
 		int var8;
@@ -108,8 +108,8 @@ public final class Canvas_Sub1 extends Canvas {
 					if (Class117_Sub5.anInt1758 * -1894076819 < 310) {
 						var18 = Class76.anInt916 * 1355759835 >> 7;
 						var19 = Class49.anInt665 * 1784829965 >> 7;
-						var16 = Class31.player.anInt2577 * 1961555871 >> 7;
-						var8 = Class31.player.anInt2567 * -184603173 >> 7;
+						var16 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 >> 7;
+						var8 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 >> 7;
 						if (var18 < 0 || var19 < 0 || var18 >= 104 || var19 >= 104) {
 							var33 = Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421;
 							break label647;
@@ -193,8 +193,8 @@ public final class Canvas_Sub1 extends Canvas {
 						}
 					}
 
-					if (Class31.player.anInt2577 * 1961555871 >= 0 && Class31.player.anInt2567 * -184603173 >= 0 && Class31.player.anInt2577 * 1961555871 < 13312 && Class31.player.anInt2567 * -184603173 < 13312) {
-						if ((Class31.aByteArrayArrayArray401[Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421][Class31.player.anInt2577 * 1961555871 >> 7][Class31.player.anInt2567 * -184603173 >> 7] & 4) != 0) {
+					if (Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 >= 0 && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 >= 0 && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 < 13312 && Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 < 13312) {
+						if ((Class31.aByteArrayArrayArray401[Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421][Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 >> 7][Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 >> 7] & 4) != 0) {
 							var9 = Class117_Sub22_Sub18_Sub3.anInt2629 * -1003847421;
 						}
 

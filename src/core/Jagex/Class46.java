@@ -208,8 +208,8 @@ public class Class46 {
 										var17 = (GameClient.anInt3202 * 138652733 + 256) * var17 >> 8;
 										int var34 = var30 * var15 + var16 * var17 >> 11;
 										int var26 = var30 * var17 - var16 * var15 >> 11;
-										int var28 = Class31.player.anInt2577 * 1961555871 + var34 >> 7;
-										int var27 = Class31.player.anInt2567 * -184603173 - var26 >> 7;
+										int var28 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871 + var34 >> 7;
+										int var27 = Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173 - var26 >> 7;
 										GameClient.aClass117_Sub14_Sub1_2961.method2932(97, 975259594);
 										GameClient.aClass117_Sub14_Sub1_2961.method2126(18, 1350491430);
 										GameClient.aClass117_Sub14_Sub1_2961.method1996(var28 + Class117_Sub22_Sub20.anInt2497 * 544615727, (byte) -86);
@@ -222,8 +222,8 @@ public class Class46 {
 										GameClient.aClass117_Sub14_Sub1_2961.method2126(GameClient.anInt2990 * -1810209603, 1402120835);
 										GameClient.aClass117_Sub14_Sub1_2961.method2126(GameClient.anInt3202 * 138652733, 2087707303);
 										GameClient.aClass117_Sub14_Sub1_2961.method2126(89, 1294303755);
-										GameClient.aClass117_Sub14_Sub1_2961.method1996(Class31.player.anInt2577 * 1961555871, (byte) -47);
-										GameClient.aClass117_Sub14_Sub1_2961.method1996(Class31.player.anInt2567 * -184603173, (byte) -102);
+										GameClient.aClass117_Sub14_Sub1_2961.method1996(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2577 * 1961555871, (byte) -47);
+										GameClient.aClass117_Sub14_Sub1_2961.method1996(Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2567 * -184603173, (byte) -102);
 										GameClient.aClass117_Sub14_Sub1_2961.method2126(63, 1209430067);
 										GameClient.anInt3153 = var28 * 1748897489;
 										GameClient.anInt3154 = var27 * -2025568851;

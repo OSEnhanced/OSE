@@ -67,7 +67,7 @@ public class Class43 {
 			}
 
 			for (var12 = 0; var12 < 2048; var12++) {
-				Player var20 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var12];
+				Class117_Sub22_Sub18_Sub1_Sub2 var20 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var12];
 				if (var20 != null) {
 					for (var14 = 0; var14 < 10; var14++) {
 						var20.anIntArray2594[var14] -= var9;

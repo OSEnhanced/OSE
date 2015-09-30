@@ -325,7 +325,7 @@ public class Class64 {
 								GameClient.aClass117_Sub22_Sub18_Sub1_Sub2Array3041[var2] = null;
 							}
 
-							Class31.player = null;
+							Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393 = null;
 
 							for (var2 = 0; var2 < GameClient.aClass117_Sub22_Sub18_Sub1_Sub1Array2942.length; var2++) {
 								Class117_Sub22_Sub18_Sub1_Sub1 var17 = GameClient.aClass117_Sub22_Sub18_Sub1_Sub1Array2942[var2];

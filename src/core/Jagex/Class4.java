@@ -124,7 +124,7 @@ public class Class4 {
 					if (!var0.aBool2215 || var1 == GameClient.anInt2983 * -2019348217) {
 						String var6 = var0.aString2208;
 						if (var0.anInt2196 * -1316966379 != 0) {
-							var6 = var6 + Class83.method1139(var0.anInt2196 * -1316966379, Class31.player.anInt2874 * -1654863477, -1873348047) + " " + Class39.aString479 + Class108.aString1356 + var0.anInt2196 * -1316966379 + Class39.aString480;
+							var6 = var6 + Class83.method1139(var0.anInt2196 * -1316966379, Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2874 * -1654863477, -1873348047) + " " + Class39.aString479 + Class108.aString1356 + var0.anInt2196 * -1316966379 + Class39.aString480;
 						}
 
 						if (GameClient.anInt3071 * -339828245 == 1) {
@@ -169,7 +169,7 @@ public class Class4 {
 								for (var8 = 4; var8 >= 0; --var8) {
 									if (var7[var8] != null && var7[var8].equalsIgnoreCase(Class108.aString1352)) {
 										short var10 = 0;
-										if (Class36.aClass36_446 == GameClient.aClass36_3077 || GameClient.aClass36_3077 == Class36.aClass36_451 && var0.anInt2196 * -1316966379 > Class31.player.anInt2874 * -1654863477) {
+										if (Class36.aClass36_446 == GameClient.aClass36_3077 || GameClient.aClass36_3077 == Class36.aClass36_451 && var0.anInt2196 * -1316966379 > Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393.anInt2874 * -1654863477) {
 											var10 = 2000;
 										}
 
