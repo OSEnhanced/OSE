@@ -37,6 +37,9 @@ public class Class32 {
 	public String otherPlayerInfo() {
 		return name + " level->" +getLevel();
 	}
+	public String getOtherPlayer() {
+		return name;
+	}
 	static int level;
 	static void method469(Class117_Sub22_Sub18_Sub1_Sub2 var0, int var1, int var2, int var3, byte var4) {
 		if (var0 != Class31.aClass117_Sub22_Sub18_Sub1_Sub2_393) {

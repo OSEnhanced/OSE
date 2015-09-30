@@ -5,6 +5,7 @@ import java.awt.event.*;
 import java.net.URL;
 
 import core.Constants;
+import core.Player.PlayerPreferences;
 
 public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListener, WindowListener {
 
@@ -554,7 +555,8 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 									/**
 									 * usage: Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459(String, X, Y, 16776960 (not sure), 0/-1 (shade));
 									 */
-									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Player: "+c32.otherPlayerInfo(), 200, 85, 16776960, 0);
+									//
+									Class39.aClass117_Sub22_Sub17_Sub4_Sub1_485.method3459("Player: "+PlayerPreferences.PLAYER_COLOR + c32.otherPlayerInfo(), 170, 150, 16776960, 0);
 								}
 								continue;
 							}
