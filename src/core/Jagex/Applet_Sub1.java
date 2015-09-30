@@ -417,7 +417,7 @@ public abstract class Applet_Sub1 extends Applet implements Runnable, FocusListe
 		return var0 != 181 && var0 != 402 ? Character.toTitleCase(var0) : var0;
 	}
 	static String getMessage() {
-		return Constants.message;
+		return Constants.playerName;
 	}
 	static void method3649(Class117_Sub19[] var0, int var1, int var2, int var3, int var4, int var5, int var6, int var7, int var8, int var9) {
 		Class117_Sub22_Sub17.method2871(var2, var3, var4, var5);
